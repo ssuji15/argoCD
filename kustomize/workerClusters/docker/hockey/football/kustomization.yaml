@@ -1,0 +1,12 @@
+namePrefix: hockey-
+commonLabels:
+  infra: docker
+resources:
+- namespace.yaml
+bases:
+- ../../../docker
+namespace: hockey
+patchesStrategicMerge:
+- healthCheck.yaml
+- cluster.yaml
+- clusterClass.yaml
