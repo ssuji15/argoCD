@@ -30,7 +30,7 @@ spec:
         enabled: true
         enforce: baseline
         warn: restricted
-    version: v1.25.3
+    version: v1.25.4
     workers:
       machineDeployments:
       - class: default-worker
