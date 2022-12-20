@@ -5,7 +5,7 @@ resources:
 - namespace.yaml
 bases:
 - ../../../docker
-namespace: football
+namespace: cricket
 patchesStrategicMerge:
 - healthCheck.yaml
 - cluster.yaml
