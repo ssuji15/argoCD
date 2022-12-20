@@ -3,6 +3,7 @@ commonLabels:
   infra: docker
 resources:
 - namespace.yaml
+- calico.yaml
 bases:
 - ../../../docker
 namespace: cricket
